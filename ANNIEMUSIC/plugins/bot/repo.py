@@ -4,7 +4,13 @@ from ANNIEMUSIC import app
 from config import BOT_USERNAME
 
 start_txt = """**
-✪ ωεℓ¢σмє ƒσя ɱσσɳ яєρσѕ ✪
+✪ ωεℓ¢σмє ƒσя яєρσѕ ✪
+ 
+ ➲ ᴀʟʟ ʀᴇᴘᴏ ᴇᴀsɪʟʏ ᴅᴇᴘʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ᴇʀʀᴏʀ ✰
+ 
+ ➲ ɴᴏ ʜᴇʀᴏᴋᴜ ʙᴀɴ ɪssᴜᴇ ✰
+ 
+ ➲ ɴᴏ ɪᴅ ʙᴀɴ ɪssᴜᴇ ✰
  
  ➲ᴜɴʟɪᴍɪᴛᴇᴅ ᴅʏɴᴏs ✰
  
@@ -21,16 +27,16 @@ async def start(_, msg):
     buttons = [
      
             [ 
-            InlineKeyboardButton("𝐓ᴀᴘ 𝐓o 𝐒ᴇᴇ 𝐓ʜᴇ 𝐌ᴀɢɪᴄ✨", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+            InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ ʙᴀʙᴇs✪", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
             ],
      
             [
-             InlineKeyboardButton("𝐌ᴏᴏɴ🌙♡", url="https://t.me/Moonshining2"),
-             InlineKeyboardButton("💌 𝐇ᴇʟᴘ 💟", url="https://t.me/Kittyxupdates"),
+             InlineKeyboardButton("ᴏᴡɴᴇʀ", url="https://t.me/CLXGN"),
+             InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/penguin_x_store"),
              ],
      
              [
-             InlineKeyboardButton("︎𝐆ʀᴀɴᴅᴍᴀsᴛɪ", url="https://t.me/+fPsCUlG964E5MzY1"),
+             InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ", url="https://t.me/VRINNDAVAN_NAGRI"),          
              ],
      
               ]
@@ -38,7 +44,7 @@ async def start(_, msg):
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await msg.reply_photo(
-        photo="https://telegra.ph/file/fda6ac428799c5ce53d77.jpg",
+        photo="https://telegra.ph/file/9deb97c59b1d281a48c7a.jpg",
         caption=start_txt,
         reply_markup=reply_markup
     )
