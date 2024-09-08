@@ -29,7 +29,6 @@
 <p align="center"><a href="http://dashboard.heroku.com/new?template=https://github.com/doraemon890/ANNIE-X-MUSIC"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-pink?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 </details>
 
-
 <h2 align="center">
     ─「 🦋ᴅᴇᴩʟᴏʏ ᴏɴ ᴠᴘs 💗 」─
 </h2>
@@ -39,7 +38,7 @@
 
  `` ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʟᴏᴄᴀʟ ʜᴏsᴛ/ ᴠᴘs 」─`` 
 
-- Get your [Necessary Variables](https://github.com/chalcogen645/ANNIE-X-MUSIC/blob/Master/sample.env)
+- Get your [Necessary Variables](https://github.com/doraemon890/ANNIE-X-MUSIC/blob/Master/sample.env)
 - Update and install necessary packages :
 `sudo apt update && sudo apt install git curl python3-pip ffmpeg -y`
 
@@ -68,7 +67,7 @@
 `curl -fssL https://deb.nodesource.com/setup_18.x | sudo -E bash - && sudo apt-get install nodejs -y && npm i -g npm`
 
 - Clone the ANNIE-X-MUSIC repository :
-`git clone https://github.com/chalcogen645/ANNIE-X-MUSIC`
+`git clone https://github.com/doraemon890/ANNIE-X-MUSIC`
 
 - Change directory to ANNIE-X-MUSIC :
 `cd ANNIEMUSIC`
